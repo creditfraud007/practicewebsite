@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title id="tabname">HTML</title>
+		
+		<img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/600px-BMW.svg.png" height="80">
+
+		<img id="mlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/BMW_M_Grey-Colour_RGB.svg/1920px-BMW_M_Grey-Colour_RGB.svg.png" height="80">
+
+			
+
+		<!--CSS-->
+
+
+
+			<style>
+				#logo {
+					position: relative;
+					z-index: 4;
+					top: 25px;
+					left: 70px;
+					opacity: 1;
+				}
+				#mlogo {
+					position: relative;
+					z-index: 3;
+					top: 25px;
+					left: -48px;
+  			  	}
+  			  	#bottomsection1 {
+  			  		background-color: black;
+  			  		position: relative;
+  			  		height: 200px;
+  			  		width: 1903px;
+  			  		top: -90px;
+  			  		left: -8px;
+  			  		z-index: 0;
+  			  	}
+  			  	#bmwm51 {
+  			  		position: relative;
+  			  		top: 45px;
+  			  		left: 1380px;
+  			  	}
+  			  	#bmwm52 {
+  			  		position: relative;
+  			  		top: 400px;
+  			  		left: 870px;
+
+  			  	}
+				#bmwm53 {
+					left: 360px;
+					position: relative;
+					top: 755px;
+				}
+				#bmwm54 {
+					position: relative;
+					left: 0px;
+					top: 1110px;
+					border: solid darkgrey;
+					border-width: 4px;
+					z-index: 2;
+					opacity: 1;
+				}
+				.hoverzoom {
+ 					transition: transform .2s;
+ 					margin: 0 auto;
+ 					box-shadow: 0px 7px 20px #000000;
+ 					opacity: 1;
+ 					z-index: 1;
+				}
+
+				.hoverzoom:hover {
+ 					transform: scale(1.15);
+ 					opacity: 1;
+
+				}
+				.topbuttons {
+					border-width: 20px;
+					background-color: black; 
+					color: whitesmoke; cursor: pointer; 
+					font-size: 25px; 
+					border: solid whitesmoke; 
+					border-width: 2px;
+					padding: 8px 16px;
+					position: relative; 
+					font-variant: small-caps;
+					margin: 0;
+					top: -1060px;
+					left: 350px;
+					z-index: 1;
+					transition: transform .2s;
+					width: 190px;
+					opacity: 0.6;
+					box-shadow: 5px 15px 30px #000000;
+				}
+				.topbuttons:hover {
+					transform: scale(1.1);
+					background-color: black;
+					border-color: dimgray;
+					border-width: 2px;
+					border-style: solid;
+					color: darkgoldenrod;
+					z-index: 2;
+					opacity: .8;
+				}
+				#mainbodybutton {
+					background-color: transparent;
+					color: royalblue;
+					cursor: pointer;
+					font-size: 33px;
+					border: solid royalblue;
+					border-width: 3px;
+					padding: 15px 30px;
+					position: fixed;
+					font-variant: small-caps;
+					margin: 0;
+					z-index: 2;
+					transition: transform .3s;
+					opacity: .7;
+					top: 300px;
+					right: 1450px;
+				}
+				#mainbodybutton:hover {
+					transform: scale(1.2);
+					background-color: black;
+					opacity: 0.5;
+					color: darkgoldenrod;
+					border-color: darkgoldenrod;
+				}
+				.hoverzoom {
+					border-width: 4px;
+					border: solid darkgrey;
+				}
+				body {
+					background-color: black;
+				}
+			</style>
+	</head>
+
+
+	<!--BODY-->
+
+
+	<body>
+
+
+	<!--IMAGES-->
+
+
+		<div class="img-hover-zoom">
+
+
+		<a target="_blank" href="https://www.motorauthority.com/news/1128514_2021-bmw-m5-review-price-photos-specs-info"><img id="bmwm51" class="hoverzoom"src="https://images.hgmsites.net/hug/2021-bmw-5-series_100749384_h.jpg" height="300" width="450"></a>
+		<a target="_blank" href="https://www.motorauthority.com/news/1128514_2021-bmw-m5-review-price-photos-specs-info">
+		<img class="hoverzoom" id="bmwm52" src="https://images.hgmsites.net/hug/2021-bmw-5-series_100749427_h.jpg" height="300" width="450"></a>
+		<a target="_blank" href="https://www.motorauthority.com/news/1128514_2021-bmw-m5-review-price-photos-specs-info"><img id="bmwm53"class="hoverzoom" class="light"src="https://images.hgmsites.net/hug/2021-bmw-5-series_100749394_h.jpg" height="300" width="450"></a>
+
+
+		</div>
+
+		<video style="margin: -400px 0px 20px -20px;"height="1077" autoplay muted loop>
+				<source src="C:\Users\gebed\Downloads\bmwm4drift.mp4"id="video">
+				</video>
+	<!--HEADINGS-->
+
+
+		<button style="margin: 0px 40px 0px 0px" class="topbuttons">Button ☰</button>
+		<button style="margin: 0px 400px 0px 0px" class="topbuttons">Button ☰</button>
+		<button style="margin: 0px 40px 0px 0px" class="topbuttons">Button ☰</button>
+		<button style="margin: 0px 40px 0px 0px" class="topbuttons">Button ☰</button>
+		<button class="topbuttons">Button ☰</button>
+		<button id="mainbodybutton"> MainBodyButton</button>
+
+
+	<!--VIDEO-BACKGROUND-->
+
+
+	<!--GREY-SECTION
+		<section id="topsection1"></section>
+	-->
+
+	<!--DARK-SECTION
+		<section id="darksection1"></section>
+	-->
+	<section id="bottomsection1"></section>
+	</body>
+</html>
+
+<!--Sam-->
